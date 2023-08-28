@@ -1,7 +1,7 @@
-export const Footer = () => {
+export const Footer = (props) => {
   return (
     <div>
-      <p>Copyright ©</p>
+      <p>Copyright © {props.year} {props.name} {props.code}</p>
     </div>
   );
 };
